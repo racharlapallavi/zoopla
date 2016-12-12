@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ suite]">
+  <test name="TEST-CLASSES(failed)">
+    <classes>
+      <class name="tests.DrawMapSaleTest">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.DrawMapSaleTest -->
+      <class name="tests.NewHomesForSaleTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="f"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.NewHomesForSaleTest -->
+      <class name="tests.ProForSaleTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.ProForSaleTest -->
+      <class name="tests.EstateAgentSaleTest">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.EstateAgentSaleTest -->
+      <class name="tests.TravelTimeSaleTest">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.TravelTimeSaleTest -->
+      <class name="tests.CommercialTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="f"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.CommercialTest -->
+      <class name="tests.OverseasSaleTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.OverseasSaleTest -->
+    </classes>
+  </test> <!-- TEST-CLASSES(failed) -->
+</suite> <!-- Failed suite [ suite] -->

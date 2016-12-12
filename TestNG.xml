@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" suite">
+	<test name="TEST-CLASSES">
+		<classes>
+			<class name="tests.ProForSaleTest" />
+			<class name="tests.NewHomesForSaleTest" />
+			<class name="tests.CommercialTest" />
+			<class name="tests.EstateAgentSaleTest" />
+			<class name="tests.TravelTimeSaleTest" />
+			<class name="tests.DrawMapSaleTest" />
+			<class name="tests.OverseasSaleTest" />
+		</classes>
+	</test>
+</suite>
+
