@@ -21,10 +21,10 @@ public class CommercialTest{
 	@BeforeMethod
 	public void beforeTest() {
 		System.setProperty("webdriver.chrome.driver", "F:\\library\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("http://www.zoopla.co.uk/");
+		driver = new ChromeDriver();//open chrome browser
+		driver.get("http://www.zoopla.co.uk/");//open zoopla 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();//maximize the window
 	
 
 	}
@@ -32,7 +32,7 @@ public class CommercialTest{
 	@Test
 	public void f() {
 
-		CommercialSalePage cp = new CommercialSalePage(driver);
+		CommercialSalePage cp = new CommercialSalePage(driver);//creating object
 		cp.enterValuescomm("Portsmouth", "Offices", "Square feet", "200 ft²", "500 ft²", "£10,000", "£30,000");
 		Assert.assertTrue(cp.getResult().equalsIgnoreCase("Offices for sale near Portsmouth"),
 				"my test case failed reason text dint matched");
@@ -40,6 +40,6 @@ public class CommercialTest{
 
 	@AfterMethod
 	public void afterTest() {
-	driver.quit();
+	driver.quit();//close chrome browser
 	}
 }

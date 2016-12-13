@@ -21,7 +21,7 @@ WebDriver driver;
 	@FindBy(id = "search-input-company")
 	WebElement eleAgentName;
 	@FindBy(id = "search-submit")
-	WebElement eleSearch;//hello//kranthi
+	WebElement eleSearch;
 
 	public EstateAgentSalePage(WebDriver driver) {
 		this.driver = driver;
