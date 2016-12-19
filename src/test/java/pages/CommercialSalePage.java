@@ -104,7 +104,7 @@ public class CommercialSalePage {
 	}
 
 	public void mouse() {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement ele = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.linkText("For sale"))));
 	    Actions a = new Actions(driver);
 		a.moveToElement(ele).build().perform();

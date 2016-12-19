@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="313387" started-at="2016-12-13T14:42:46Z" finished-at="2016-12-13T14:47:59Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="313387" started-at="2016-12-13T14:42:46Z" finished-at="2016-12-13T14:47:59Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.LoginTest@5f2050f6]" name="beforeTest" is-config="true" duration-ms="9368" started-at="2016-12-13T20:14:43Z" finished-at="2016-12-13T20:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.LoginTest@5f2050f6]" name="f" duration-ms="10019" started-at="2016-12-13T20:14:52Z" finished-at="2016-12-13T20:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.LoginTest@5f2050f6]" name="afterTest" is-config="true" duration-ms="875" started-at="2016-12-13T20:15:02Z" finished-at="2016-12-13T20:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.DrawMapSaleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.DrawMapSaleTest@dfd3711]" name="beforeTest" is-config="true" duration-ms="9321" started-at="2016-12-13T20:13:12Z" finished-at="2016-12-13T20:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.DrawMapSaleTest@dfd3711]" name="f" duration-ms="12220" started-at="2016-12-13T20:13:21Z" finished-at="2016-12-13T20:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.DrawMapSaleTest@dfd3711]" name="afterTest" is-config="true" duration-ms="899" started-at="2016-12-13T20:13:33Z" finished-at="2016-12-13T20:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.DrawMapSaleTest -->
+      <class name="tests.EstateAgentSaleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.EstateAgentSaleTest@42d3bd8b]" name="beforeTest" is-config="true" duration-ms="11714" started-at="2016-12-13T20:13:34Z" finished-at="2016-12-13T20:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.EstateAgentSaleTest@42d3bd8b]" name="f" duration-ms="9292" started-at="2016-12-13T20:13:46Z" finished-at="2016-12-13T20:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.EstateAgentSaleTest@42d3bd8b]" name="afterTest" is-config="true" duration-ms="905" started-at="2016-12-13T20:13:55Z" finished-at="2016-12-13T20:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.EstateAgentSaleTest -->
+      <class name="tests.RegTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.RegTest@4e04a765]" name="beforeTest" is-config="true" duration-ms="9094" started-at="2016-12-13T20:16:39Z" finished-at="2016-12-13T20:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.RegTest@4e04a765]" name="f" duration-ms="11613" started-at="2016-12-13T20:16:48Z" finished-at="2016-12-13T20:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.RegTest@4e04a765]" name="afterTest" is-config="true" duration-ms="946" started-at="2016-12-13T20:17:00Z" finished-at="2016-12-13T20:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.RegTest -->
+      <class name="tests.TravelTimeSaleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.TravelTimeSaleTest@17550481]" name="beforeTest" is-config="true" duration-ms="10663" started-at="2016-12-13T20:17:35Z" finished-at="2016-12-13T20:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.TravelTimeSaleTest@17550481]" name="f" duration-ms="12331" started-at="2016-12-13T20:17:46Z" finished-at="2016-12-13T20:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TravelTimeSaleTest@17550481]" name="afterTest" is-config="true" duration-ms="959" started-at="2016-12-13T20:17:58Z" finished-at="2016-12-13T20:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TravelTimeSaleTest -->
+      <class name="tests.HomeTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.HomeTest@26ba2a48]" name="beforeTest" is-config="true" duration-ms="9403" started-at="2016-12-13T20:13:56Z" finished-at="2016-12-13T20:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.HomeTest@26ba2a48]" name="f" duration-ms="36144" started-at="2016-12-13T20:14:06Z" finished-at="2016-12-13T20:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.HomeTest@26ba2a48]" name="afterTest" is-config="true" duration-ms="1024" started-at="2016-12-13T20:14:42Z" finished-at="2016-12-13T20:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.HomeTest -->
+      <class name="tests.ProForSaleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.ProForSaleTest@13fee20c]" name="beforeTest" is-config="true" duration-ms="11763" started-at="2016-12-13T20:16:15Z" finished-at="2016-12-13T20:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.ProForSaleTest@13fee20c]" name="f" duration-ms="11035" started-at="2016-12-13T20:16:27Z" finished-at="2016-12-13T20:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.ProForSaleTest@13fee20c]" name="afterTest" is-config="true" duration-ms="872" started-at="2016-12-13T20:16:38Z" finished-at="2016-12-13T20:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.ProForSaleTest -->
+      <class name="tests.ToRentTest">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:tests.ToRentTest@783e6358]" name="openURL" is-config="true" duration-ms="13534" started-at="2016-12-13T20:17:00Z" finished-at="2016-12-13T20:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.ToRentTest@783e6358]" name="f" duration-ms="16967" started-at="2016-12-13T20:17:14Z" finished-at="2016-12-13T20:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.ToRentTest@783e6358]" name="afterTest" is-config="true" duration-ms="4458" started-at="2016-12-13T20:17:31Z" finished-at="2016-12-13T20:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.ToRentTest -->
+      <class name="tests.NewHomesForSaleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.NewHomesForSaleTest@3b81a1bc]" name="beforeTest" is-config="true" duration-ms="9491" started-at="2016-12-13T20:15:03Z" finished-at="2016-12-13T20:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.NewHomesForSaleTest@3b81a1bc]" name="f" duration-ms="7106" started-at="2016-12-13T20:15:13Z" finished-at="2016-12-13T20:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.NewHomesForSaleTest@3b81a1bc]" name="afterTest" is-config="true" duration-ms="890" started-at="2016-12-13T20:15:20Z" finished-at="2016-12-13T20:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.NewHomesForSaleTest -->
+      <class name="tests.CommercialTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.CommercialTest@38082d64]" name="beforeTest" is-config="true" duration-ms="10114" started-at="2016-12-13T20:12:46Z" finished-at="2016-12-13T20:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.CommercialTest@38082d64]" name="f" duration-ms="14547" started-at="2016-12-13T20:12:56Z" finished-at="2016-12-13T20:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.CommercialTest@38082d64]" name="afterTest" is-config="true" duration-ms="1217" started-at="2016-12-13T20:13:11Z" finished-at="2016-12-13T20:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.CommercialTest -->
+      <class name="tests.OverseasSaleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.OverseasSaleTest@64616ca2]" name="beforeTest" is-config="true" duration-ms="12103" started-at="2016-12-13T20:15:21Z" finished-at="2016-12-13T20:15:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.OverseasSaleTest@64616ca2]" name="f" duration-ms="41448" started-at="2016-12-13T20:15:33Z" finished-at="2016-12-13T20:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.OverseasSaleTest@64616ca2]" name="afterTest" is-config="true" duration-ms="1010" started-at="2016-12-13T20:16:14Z" finished-at="2016-12-13T20:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.OverseasSaleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

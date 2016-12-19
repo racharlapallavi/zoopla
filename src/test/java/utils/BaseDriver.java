@@ -15,7 +15,7 @@ public class BaseDriver {
 	try {
 		
 		String path = System.getProperty("user.dir");
-		PropertyUtil pus = new PropertyUtil(path + "\\src\\test\\java\\resources\\configuration.properties");
+		PropertyUtil pus = new PropertyUtil(path + "\\src\\test\\java\\resources\\config.properties");
 		String url = pus.getProperty("url");
 		String grid = pus.getProperty("grid");
 		String browser = pus.getProperty("browser");
@@ -31,13 +31,14 @@ public class BaseDriver {
 				driver = new FirefoxDriver();
 			}  
 		} else if (browser.equalsIgnoreCase("chrome")) {
+			
 		} else if (browser.equalsIgnoreCase("ie")) {
 			
 		}
-	driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(4000, TimeUnit.SECONDS);
 		driver.get(url);
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	} catch (Exception ex) {
 	
 }
